@@ -3,10 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function DebutInvitation() {
   const slides = [
-    { image: "/DEBUT%20INVITATION%20(7).png" },
-    { image: "/DEBUT%20INVITATION%20(8).png" },
-    { image: "/DEBUT%20INVITATION%20(3).png" },
-    { image: "/DEBUT%20INVITATION%20(4).png" },
+    { image: "/image1.png" },
+    { image: "/image2.png" },
+    { image: "/image3.png" },
+    { image: "/image4.png" },
   ];
 
   const [index, setIndex] = useState(0);
