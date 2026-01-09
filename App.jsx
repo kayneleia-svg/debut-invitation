@@ -14,7 +14,7 @@ export default function DebutInvitation() {
   // Auto-slide every 5 seconds
   useEffect(() => {
     const interval = setInterval(() => {
-      setIndex(prev => (prev + 1) % slides.length);
+      setIndex((prev) => (prev + 1) % slides.length);
     }, 5000);
     return () => clearInterval(interval);
   }, []);
@@ -33,7 +33,7 @@ export default function DebutInvitation() {
           <motion.img
             key={index}
             src={slides[index].image}
-            alt="Debut Invitation"
+            alt={`Debut Invitation ${index + 1}`}
             className="w-full rounded-xl"
             variants={slideVariants}
             initial="enter"
@@ -46,7 +46,9 @@ export default function DebutInvitation() {
         <div className="flex justify-between mt-6">
           <button
             className="px-4 py-2 border border-gray-400 rounded hover:bg-gray-100"
-            onClick={() => setIndex((index - 1 + slides.length) % slides.length)}
+            onClick={() =>
+              setIndex((index - 1 + slides.length) % slides.length)
+            }
           >
             Previous
           </button>
