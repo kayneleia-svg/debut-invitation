@@ -5,8 +5,8 @@ export default function DebutInvitation() {
   const slides = [
     { image: "/DEBUT%20INVITATION%20(7).png" },
     { image: "/DEBUT%20INVITATION%20(8).png" },
-    { image: "/DEBUT%20INVITATION%20(9).png" },
-    { image: "/DEBUT%20INVITATION%20(10).png" },
+    { image: "/DEBUT%20INVITATION%20(3).png" },
+    { image: "/DEBUT%20INVITATION%20(4).png" },
   ];
 
   const [index, setIndex] = useState(0);
