@@ -4,7 +4,13 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 export default function DebutInvitation() {
-  const slides = [
+      const slides = [
+  { image: "/DEBUT INITATION (7).png" },
+  { image: "/DEBUT INITATION (8).png" },
+  { image: "DEBUT INITATION (9).png" },
+  { image: "DEBUT INITATION (10).png" },
+];
+  
     {
       title: "You're Invited",
       text: "Join me as I celebrate my 18th birthday ✨",
@@ -31,8 +37,11 @@ export default function DebutInvitation() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-2xl font-bold mb-3">{slides[index].title}</h1>
-            <p className="text-base">{slides[index].text}</p>
+            <img
+  src={slides[index].image}
+  alt="Debut Invitation"
+  className="w-full rounded-xl"
+/>
           </motion.div>
 
           <div className="flex justify-between mt-6">
