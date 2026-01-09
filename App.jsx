@@ -5,26 +5,13 @@ import { Button } from "@/components/ui/button";
 
 export default function DebutInvitation() {
       const slides = [
-  { image: "/DEBUT INITATION (7).png" },
-  { image: "/DEBUT INITATION (8).png" },
-  { image: "DEBUT INITATION (9).png" },
-  { image: "DEBUT INITATION (10).png" },
+  { image: "/DEBUT%20INVITATION%20(7).png" },
+  { image: "/DEBUT%20INVITATION%20(8).png" },
+  { image: "/DEBUT%20INVITATION%20(9).png" },
+  { image: "/DEBUT%20INVITATION%20(10).png" },
 ];
-  
-    {
-      title: "You're Invited",
-      text: "Join me as I celebrate my 18th birthday ✨",
-    },
-    {
-      title: "The Debut",
-      text: "A night of memories, laughter, and new beginnings",
-    },
-    {
-      title: "Save the Date",
-      text: "February 14, 2026 | 6:00 PM",
-    },
-  ];
 
+  
   const [index, setIndex] = useState(0);
 
   return (
