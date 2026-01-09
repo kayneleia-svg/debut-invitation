@@ -67,7 +67,7 @@ export default function DebutInvitation() {
             Please confirm your attendance by filling out the form below 💌
           </p>
           <iframe
-            src="PASTE_YOUR_GOOGLE_FORM_EMBED_LINK_HERE"
+            src="https://docs.google.com/forms/d/e/1FAIpQLScSlAcpKucFkVD0UwEpCLq47ImbyF2pEpynKGn1vekvG6mAiA/viewform?usp=sharing&ouid=103858911872075913794"
             width="100%"
             height="500"
             className="rounded-xl border"
